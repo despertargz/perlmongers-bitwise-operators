@@ -1,1 +1,2 @@
 complete endian.pl
+add explanatin of xor diff (number swap)

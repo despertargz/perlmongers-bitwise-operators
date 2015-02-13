@@ -34,8 +34,13 @@ $employee ^= Developer;
 # 0010
 # ----
 # 0001
-print_jobs($employee);
+#print_jobs($employee);
+#
 
+#0010
+#1101
+$employee &= ~Developer;
+print_jobs($employee);
 
 sub print_jobs {
 	my $employee = shift;

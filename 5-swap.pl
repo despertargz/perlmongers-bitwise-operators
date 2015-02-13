@@ -13,6 +13,9 @@ $b = $b ^ $a;
 $a = $b ^ $a;
 
 
-say "";
+say ""simple;
 say "a: $a";
 say "b: $b";
+
+# reference:
+# http://biesnecker.com/2014/10/06/swapping-variables-with-xor/
